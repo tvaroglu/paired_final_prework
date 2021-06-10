@@ -46,9 +46,9 @@ RSpec.describe Vehicle do
     expect(vehicle.passengers[2].age).to eq(12)
     expect(vehicle.num_adults).to eq(2)
   end
-
-  xit 'can do more stuff' do
-    # stuff
-  end
+  # 
+  # xit 'can do more stuff' do
+  #   # stuff
+  # end
 
 end
