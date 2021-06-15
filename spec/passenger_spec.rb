@@ -39,9 +39,5 @@ RSpec.describe Passenger do
     charlie.drive
     expect(charlie.driver?).to be true
   end
-  # 
-  # xit 'can do more stuff' do
-  #   # stuff
-  # end
 
 end

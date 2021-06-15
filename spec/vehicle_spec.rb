@@ -45,10 +45,9 @@ RSpec.describe Vehicle do
     expect(vehicle.passengers[1].age).to eq(20)
     expect(vehicle.passengers[2].age).to eq(12)
     expect(vehicle.num_adults).to eq(2)
+
+    vehicle.speed
+    expect(vehicle.speeding?).to be true
   end
-  # 
-  # xit 'can do more stuff' do
-  #   # stuff
-  # end
 
 end
